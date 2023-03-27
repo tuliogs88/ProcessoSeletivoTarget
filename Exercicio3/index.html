@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<script type="text/javascript" src="JS/efeitos.js"></script>
+<title>Dados Empresa</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+</style> 
+</head>
+<body>
+	<header>
+		<h2>Faturamento</h2>
+	</header>
+	<main>
+		<section class="principal">
+			<h4>Dados do Faturamento: </h4>
+			<div id="resultado">
+        <label>Valor em R$: </label>
+				<input type="text" id="valor" name="valor" placeholder="Insira o valor do faturamento: ">
+        <label>Data do Faturamento: </label>
+				<input type="date" id="data" name="data">
+        <button onClick="AddRegistro()">Adicionar</button>
+        <button onClick="verificaValores()">Verificar</button>
+			</div>
+      <div id="registro">
+          <div>
+              
+          </div>
+      </div>
+      <div id="verifica">
+          
+      </div>
+		</section>
+	</main>
+	<footer>
+		<p>Controle de Faturamento</p>
+	</footer>
+</body>
+</html>
